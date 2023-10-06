@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <main class="mt-5">
+        <div class="container">
+          <h2 class="h2-responsive section-heading fw-bold text-center my-2">
+            Contact Us
+          </h2>
+          <p class="text-center w-responsive mx-auto mb-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore atque
+            facere ex nostrum repellendus!
+          </p>
+          <!--Section: Contact v.2-->
+          <section class="mb-4">
+            <div class="row mt-5">
+              <!--Grid column-->
+              <div class="col-md-6 mb-md-0 mb-5">
+                <form
+                  id="contact-form"
+                  name="contact-form"
+                  action="mail.php"
+                  method="POST"
+                >
+                  <!--Grid row-->
+                  <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-6 pt-3">
+                      <div class="md-form mb-0">
+                        <label for="name" class="">Your name</label>
+                        <input
+                          type="text"
+                          id="name"
+                          name="name"
+                          class="form-control"
+                          placeholder="EnterName"
+                        />
+                      </div>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-6 pt-3">
+                      <div class="md-form mb-0">
+                        <label for="email" class="">Your email</label>
+                        <input
+                          type="text"
+                          id="email"
+                          name="email"
+                          class="form-control"
+                          placeholder="email"
+                        />
+                      </div>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
+                  <!--Grid row-->
+                  <div class="row">
+                    <div class="col-md-12 pt-3">
+                      <div class="md-form mb-0">
+                        <label for="subject" class="">Subject</label>
+                        <input
+                          type="text"
+                          id="subject"
+                          name="subject"
+                          class="form-control"
+                          placeholder="Subject"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <!--Grid row-->
+                  <!--Grid row-->
+                  <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12 pt-3">
+                      <div class="md-form">
+                        <label for="message">Your message</label>
+                        <textarea
+                          type="text"
+                          id="message"
+                          name="message"
+                          rows="6"
+                          class="form-control md-textarea"
+                          placeholder="message"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Grid row-->
+                </form>
+                <div class="text-center text-md-left mt-3">
+                  <a
+                    class="btn btn-primary"
+                    onclick="document.getElementById('contact-form').submit();"
+                    >Send</a
+                  >
+                </div>
+                <div class="status"></div>
+              </div>
+              <!--Grid column-->
+              <div class="col-md-6">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3867187.666169696!2d76.76983739999999!3d18.81817715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1693466602526!5m2!1sen!2sin"
+                  width="600"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </section>
+          <!--Section: Contact v.2-->
+        </div>
+      </main>
+      
+</body>
+</html>
